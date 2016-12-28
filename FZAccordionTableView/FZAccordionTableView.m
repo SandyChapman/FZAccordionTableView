@@ -308,10 +308,6 @@
                 countOfOpenSections++;
             }
         }
-        
-        if (countOfOpenSections == 1 && [self isSectionOpen:section]) {
-            return;
-        }
     }
     
     BOOL openSection = [self isSectionOpen:section];
